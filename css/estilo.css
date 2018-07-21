@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    background-color: white;
+    
+}
+    h1{
+    color: black;
+    font-family: sans-serif;
+
+}
+
+header{
+    text-align: center;
+}
+
+nav{
+    height: 50px;
+    background-color: #68d2c9;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#botoes{
+    position: absolute;
+    right: 10px;
+    top: 10px;        
+    }
+
+/* aqui são formatados os links de cima */
+
+.linkdecima{
+    color: white;
+    text-decoration: none;
+    font-size: 16pt;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+button{
+    background-color: #68d2c9;
+    border: solid #68d2c9;
+}
+
+section{
+    margin: 30px auto;
+    display: flex;
+    width: 60vw;
+   
+}
+
+p{
+    margin-left: 20px;
+    font-family: helvetica, arial;
+    text-align: justify;
+    font-size:20px;
+}
+
+#carrossel{
+    height: 300px;
+    width: 1000px;
+    border-top-right-radius: 77px;
+    border-bottom-right-radius: 77px;
+    border-top-left-radius: 77px;
+    border-bottom-left-radius: 77px;
+}    
+}
+
+#pessoa{
+        border-radius: 50%;
+}
+
+
+#segunda{
+
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px
+}
+
+
+
+
+
+
+#redessociais{
+    height: 40px;
+    background-color: #69D2CE;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+
+}
